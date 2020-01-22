@@ -1,0 +1,78 @@
+/* Add application styles & imports to this file! */
+/* @import '@angular/material/prebuilt-themes/deeppurple-amber.css'; */
+
+body {
+  font-family: arial;
+  margin: 0;
+}
+
+pre, p {
+  font-family: arial;
+  word-wrap: break-word;
+  max-width: 100%;
+  white-space: normal;
+}
+
+
+h1, h2, h3{
+  margin: 12px 0;
+  color: #333333;
+}
+
+.mat-radio-label-content {
+  margin-right: 10px;
+}
+
+.box {
+  height: 60px;
+  width: 60px;
+  background-color: whitesmoke;
+  border: 1px solid grey;
+  margin: 4px;
+  cursor: pointer; 
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mat-button-base {
+  margin: 4px !important;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* 
+$seges-dark-green: #005152;
+$seges-dark-green-2: #4D8686;
+$seges-green: #91c391;
+$seges-green-2: #90C28F;
+$seges-dark: #555555;
+$seges-black: #333333;
+$seges-grey: #F0F0E9;
+$seges-grey-2: #E4E4E4;
+$seges-light-1: #ffffff;
+$seges-light-2: #fbfbf9;
+$seges-page-background: #f2f2f2;
+$seges-orange: #E95D0F;
+$seges-red: #A30014;
+$seges-red-2: #F5491E;
+$seges-light-red: #facec9; */

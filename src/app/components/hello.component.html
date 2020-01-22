@@ -1,0 +1,106 @@
+<div class="flex-column">
+   <a routerLink="/1" routerLinkActive="active">1. omgang</a>
+  <a routerLink="/2" routerLinkActive="active">2. omgang</a>
+  <a routerLink="/3" routerLinkActive="active">3. omgang</a>
+   <a routerLink="/test" routerLinkActive="active">Test</a>
+</div>
+
+<br>
+<br>
+
+
+
+<div style="margin: 8px; display: flex; flex-direction: column;">
+ <mat-form-field class="example-full-width">
+    <!-- placeholder="Dyrenr" -->
+    <input matInput  placeholder="Dyrenr" value="52547-06554">
+  </mat-form-field>
+   <mat-form-field class="example-full-width">
+    <input matInput  placeholder="Indtast">
+  </mat-form-field>
+<br>
+<h3>Vælg en af disse</h3>
+<mat-radio-group style="display: flex;">
+  <div>
+    <mat-radio-button class="example-radio-button" value="1">Valg x</mat-radio-button>    
+    <mat-radio-button class="example-radio-button" value="2">Valg y</mat-radio-button>
+    <mat-radio-button class="example-radio-button" value="2">Valg z</mat-radio-button>
+  </div>
+</mat-radio-group>
+
+<br>
+<h3>Vælg en eller flere af disse</h3>
+  <mat-checkbox class="example-margin" value="after">Valg x</mat-checkbox>
+<mat-checkbox class="example-margin" value="before">Valg y</mat-checkbox>
+<mat-checkbox class="example-margin" value="before">Valg z</mat-checkbox>
+<br>
+<h3>Vælg en dato</h3>
+<mat-form-field>
+  <input matInput [matDatepicker]="picker" placeholder="">
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+
+<h3>Vælg en af disse</h3>
+
+<mat-form-field>
+  <mat-label>Vælg en af disse</mat-label>
+  <mat-select>
+    <mat-option value="x">Valg x</mat-option>
+    <mat-option value="x">Valg y</mat-option>
+    <mat-option value="x">Valg z</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<br>
+<br>
+<mat-slider min="0" max="100" value="55"></mat-slider>
+
+<br>
+<br>
+<mat-slide-toggle>
+ tænd/sluk
+</mat-slide-toggle>
+
+<pre>Her er noget forklarende 
+tekst til det ønskede</pre>
+
+<br>
+<br>
+<div class="boxes"> 
+  <div class="box center">1</div>
+  <div class="box center">2</div>
+  <div class="box center">3</div>
+</div>
+
+<br>
+
+<h3 style="page-break-before: always">Her er en liste over ting</h3>
+<div>
+<p>1. ting</p>
+<p>2. ting</p>
+<p>3. ting</p>
+</div>
+
+<h3>Knapper</h3>
+<div class="example-button-row">
+  <button mat-stroked-button>Basic</button>
+  <button mat-stroked-button color="primary">Knap</button>
+  <button mat-stroked-button color="accent">Knap</button>
+  <button mat-stroked-button color="warn">Knap</button>
+  <button mat-stroked-button disabled>Knap</button>
+  <a mat-stroked-button routerLink=".">Knap</a>
+</div>
+
+<mat-tab-group>
+  <mat-tab label="Første"><br>Indhold 1<br><br><br><br><br>  </mat-tab>
+  <mat-tab label="Anden"> <br>Indhold 2 <br><br><br><br><br>  </mat-tab>
+  <mat-tab label="Tredje"> <br>Indhold 3 <br><br><br><br><br>  </mat-tab>
+</mat-tab-group>
+
+
+<mat-icon>fingerprint</mat-icon>
+<a href="https://material.io/resources/icons/?icon=fingerprint&style=baseline" target="_blank">ikoner</a>
+</div>
+
+
